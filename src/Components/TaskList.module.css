@@ -1,0 +1,48 @@
+.TaskList_container{
+ 
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_input{
+    width: 100%;;
+    height: 200px;
+    background-image: linear-gradient(#eff1ef, #d2e4d2);
+    border: none;
+    max-width: 1100px;
+    border-bottom: 13px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    border-top: 9px solid white;
+  }
+  .todo_input_container{
+    position: relative;
+    border-bottom: 1px solid  #d2e4d2;
+    margin-bottom: 5px;
+    border-top: 1px solid  #d2e4d2;
+  }
+ 
+  .edit_options{
+    display: flex;
+   
+    margin-top: 10px;
+    margin-left: 20px; 
+    font-size: 25px;
+    position: absolute;
+   max-width: 100%;
+    top: 140px;
+  }
+  .left_options{
+    display: flex;
+    gap: 15px;
+  }
+  .right_btn{
+     padding: 10px 20px;
+     color: green;
+     border: none;
+     border-radius: 5px;
+     position: absolute;
+     top: 140px;
+     right: 5%; 
+
+  }

@@ -1,0 +1,14 @@
+.tasks{
+    list-style: none;
+  }
+  .tasks li{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    border-bottom: 4px solid #EEF6EF;
+  }
+  .todo_item{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
