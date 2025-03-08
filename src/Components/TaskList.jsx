@@ -2,7 +2,6 @@ import styles from './TaskList.module.css'
 import { SlCalender } from "react-icons/sl";
 import { CiBellOn } from "react-icons/ci";
 import { FaRepeat } from "react-icons/fa6";
-import Todoitem from './Todoitem';
 import { useReducer, useState } from 'react';
 import Todoitems from './Todoitems';
 import TodoReducer from './TodoReducer';
